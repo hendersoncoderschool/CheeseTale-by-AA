@@ -1,67 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Animator animator;
+    private Rigidbody2D rb;
     private string direction = ""; 
+
+    private float horizontal;
+    private float vertical;
+
+    private Vector2 movement;
+    private bool isWalking = true;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("w"))
-        {
-            if (direction != "up")
-            {
-                animator.SetTrigger("up");
-                direction = "up";
-            }
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-            transform.Translate(transform.up * speed * Time.deltaTime);
+        animator.SetFloat("move x",movement.x);
+        animator.SetFloat("move y",movement.y);
+
+        if (movement.x==0f && movement.y==0f && isWalking == true){
+            isWalking = false;
+            animator.SetBool("is walking",false);
+            animator.SetFloat("prev move x",movement.x);
+            animator.SetFloat("prev move y",movement.y);
         }
-
-        if (Input.GetKey("s"))
-        {
-            if(direction != "down")
-            {
-                animator.SetTrigger("down");
-                direction = "down";
-            }
-            
-            transform.Translate(-transform.up * speed * Time.deltaTime);
-                
-        }
-
-        if (Input.GetKey("a"))
-        {
-            if (direction != "left")
-            {
-                animator.SetTrigger("left");
-                direction = "left";
-            }
-            transform.Translate(-transform.right * speed * Time.deltaTime);
-        }
-
-        if (Input.GetKey("d"))
-        {
-            if (direction != "right")
-            {
-                animator.SetTrigger("right");
-                direction = "right";
-            }
-            transform.Translate(transform.right * speed * Time.deltaTime);
-        }
-
-        if (Input.GetKeyUp("w") ||  Input.GetKeyUp("a") ||  Input.GetKeyUp("s") || Input.GetKeyUp("d")){
-            animator.SetTrigger("idle");
-            direction = "";
+        else {
+            isWalking = true;
+            animator.SetBool("is walking",true);
         }
     }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+    }
+
+    void OnTriggerEnter2d(Collider2D col){
+        SceneManager.LoadScene("Tutorial Room");
+    }
+    
 }
