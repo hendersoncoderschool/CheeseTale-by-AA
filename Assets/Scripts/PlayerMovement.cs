@@ -33,12 +33,13 @@ public class PlayerMovement : MonoBehaviour
         if (movement.x==0f && movement.y==0f && isWalking == true){
             isWalking = false;
             animator.SetBool("is walking",false);
-            animator.SetFloat("prev move x",movement.x);
-            animator.SetFloat("prev move y",movement.y);
+            
         }
         else {
             isWalking = true;
             animator.SetBool("is walking",true);
+            animator.SetFloat("prev move x", movement.x);
+            animator.SetFloat("prev move y", movement.y);
         }
     }
 
@@ -48,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void OnTriggerEnter2d(Collider2D col){
-        SceneManager.LoadScene("Tutorial Room");
+        //SceneManager.LoadScene("Tutorial Room");
     }
     
 }

@@ -3,7 +3,7 @@ guid: 192f9ae21260f4a41aec4e9419a721be
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,11 +103,634 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1535
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc40489b820ff64283bffb4b77154fc
+      internalID: 1657707658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1535
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddf2afd68fb4ab42ba78e77f62b7f0a
+      internalID: 2108184921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1535
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1500f42e2b7c45a854fd2d86c2dc9
+      internalID: 1192900764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1564
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af45a7b607a07c4abc3621a80fa95a4
+      internalID: -297610408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1566
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1650f2b5d0f6c41be5423862d5b776
+      internalID: -711883274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1563
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba33627f2d8c942bfd1485fe5d9dd4
+      internalID: -1943624144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1567
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baec181f554a304e841ece3cdbc8c9a
+      internalID: 2031306971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1566
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7613de298fa6bab4eaecf434224d036a
+      internalID: -1244662761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1468
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0e64af046136c4f89454478a637d07
+      internalID: 2070015036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1468
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5af0d66c7179941af5a3b85510d9a0
+      internalID: 2132066466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1468
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44306bcd2704f25438bd5e3fd37c50f3
+      internalID: 2015547604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1468
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e333f905578140b04bbb2505438fa
+      internalID: 1179855472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1468
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104325bbe59a4a8448980d97f7a73f80
+      internalID: -253162008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1468
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf8f4d16b294e5438c973247ba97ae3
+      internalID: -30122653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1401
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8664a63737c5f74ea9108da8896e0a6
+      internalID: 1909161755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1401
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0203cc5d572a60469b8000525af821c
+      internalID: 2038401502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1401
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154a82fb19016447901ff2e59b7a1d6
+      internalID: 1136338564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1401
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a3b39f3bcfe9a499a088e41f951a9e
+      internalID: 2115129278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1334
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44854bac52039554d9ae5c34114320d2
+      internalID: 1004504081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1334
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d7a68c3eb63174db88fe4bd133c878
+      internalID: -529724775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1334
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa41f6ade6cfe4c4f9b4d31cc0dbd462
+      internalID: 783833906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1334
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dbae6517eba984da4b910154bf30d2
+      internalID: 1254941014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1335
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bdd3a7f195a9b48b3cdf2bbedcfa2a
+      internalID: 1804963219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1335
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7deefeb6ba40cc478472df81f2a18f9
+      internalID: 722605402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1270
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3c3ced611beae4f9a5cf051e0bcfba
+      internalID: -1554872371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 405
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7651cfd74efcf946b78214294e9774a
+      internalID: -608874542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 405
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ef31f4487a1f045ac8592b785752cb
+      internalID: -1652400882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 405
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f539e87d1f2c5384a99e396cb9f4abd1
+      internalID: -259394117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Flowey (1) (1)_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 405
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8594e0beda20a2e43ab84b4a48587c9d
+      internalID: 2146136270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,10 +741,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    nameFileIdTable:
+      PC Computer - Undertale - Flowey (1) (1)_0: 1657707658
+      PC Computer - Undertale - Flowey (1) (1)_1: 2108184921
+      PC Computer - Undertale - Flowey (1) (1)_10: 2015547604
+      PC Computer - Undertale - Flowey (1) (1)_11: 1179855472
+      PC Computer - Undertale - Flowey (1) (1)_12: -253162008
+      PC Computer - Undertale - Flowey (1) (1)_13: -30122653
+      PC Computer - Undertale - Flowey (1) (1)_14: 1909161755
+      PC Computer - Undertale - Flowey (1) (1)_15: 2038401502
+      PC Computer - Undertale - Flowey (1) (1)_16: 1136338564
+      PC Computer - Undertale - Flowey (1) (1)_17: 2115129278
+      PC Computer - Undertale - Flowey (1) (1)_18: 1004504081
+      PC Computer - Undertale - Flowey (1) (1)_19: -529724775
+      PC Computer - Undertale - Flowey (1) (1)_2: 1192900764
+      PC Computer - Undertale - Flowey (1) (1)_20: 783833906
+      PC Computer - Undertale - Flowey (1) (1)_21: 1254941014
+      PC Computer - Undertale - Flowey (1) (1)_22: 1804963219
+      PC Computer - Undertale - Flowey (1) (1)_23: 722605402
+      PC Computer - Undertale - Flowey (1) (1)_24: -1554872371
+      PC Computer - Undertale - Flowey (1) (1)_25: -608874542
+      PC Computer - Undertale - Flowey (1) (1)_26: -1652400882
+      PC Computer - Undertale - Flowey (1) (1)_27: -259394117
+      PC Computer - Undertale - Flowey (1) (1)_28: 2146136270
+      PC Computer - Undertale - Flowey (1) (1)_3: -297610408
+      PC Computer - Undertale - Flowey (1) (1)_4: -711883274
+      PC Computer - Undertale - Flowey (1) (1)_5: -1943624144
+      PC Computer - Undertale - Flowey (1) (1)_6: 2031306971
+      PC Computer - Undertale - Flowey (1) (1)_7: -1244662761
+      PC Computer - Undertale - Flowey (1) (1)_8: 2070015036
+      PC Computer - Undertale - Flowey (1) (1)_9: 2132066466
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
