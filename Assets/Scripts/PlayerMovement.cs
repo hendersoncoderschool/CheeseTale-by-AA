@@ -29,15 +29,10 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("move x",movement.x);
         animator.SetFloat("move y",movement.y);
+        animator.SetBool("is walking", movement.sqrMagnitude > 0);
 
-        if (movement.x==0f && movement.y==0f && isWalking == true){
-            isWalking = false;
-            animator.SetBool("is walking",false);
-            
-        }
-        else {
-            isWalking = true;
-            animator.SetBool("is walking",true);
+        if (movement.sqrMagnitude > 0)
+        {
             animator.SetFloat("prev move x", movement.x);
             animator.SetFloat("prev move y", movement.y);
         }
